@@ -15,8 +15,8 @@ body {
     height: 50px;
     gap: 16px;
     align-items: center;
-    padding-right: 120px;
-    padding-left: 120px;
+    padding-right: 300px;
+    padding-left: 300px;
 }
 
 .header .header-logo {
@@ -29,12 +29,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 450px;
     gap: 48px;
 }
 
 .section-2 .left-side {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: flex-start;
     width: 400px;
@@ -56,7 +56,7 @@ body {
 .left-side .sign-up-button {
     color: white;
     background-color: #3882f6;
-    padding: 5px 15px;
+    padding: 5px 25px;
     border-width: 0px;
     border-radius: 5px;
 }
@@ -65,5 +65,101 @@ body {
     width: 400px;
     height: 250px;
     border-radius: 5px;
+}
+
+
+.section-3-header {
+    text-align: center;
+    padding-top: 36px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.images-section {
+    display: flex;
+    margin: 40px 375px 100px 375px;
+    justify-content: space-between;
+}
+
+.images-section .image-box {
+    height: 125px;
+    width: 125px;
+    border: 3px solid rgb(55, 118, 254);
+    border-radius: 10px;
+}
+
+.images-section .image-slot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 4px;
+}
+
+.images-section .image-text {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(94, 91, 91);
+    font-weight: 300;
+}
+
+.quote-section {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 100px 280px;
+    gap: 8px;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.quote-section .quote-signature {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: end;
+    padding-right: 50px;
+}
+
+.final-section {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.final-section .container {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    padding: 40px 90px;
+    gap: 100px;
+    border-radius: 5px;
+}
+
+.container .container-text {
+    color: white;
+}
+
+.container-text p {
+    margin-bottom: 3px;
+}
+
+.final-section .container button {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px 18px;
+}
+.final-section .container button a {
+    text-decoration: none;
+    color: white;
 }
 
